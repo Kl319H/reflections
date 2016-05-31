@@ -10,3 +10,41 @@ What value do you think it offers?
       The staging area is preparing the file to be committed, allowing you to
       control what commits are made. The working directory is a work in progress
       that will continue to change.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+      It allows you to add them progressively, allowing you to check the
+      differences between the staging area and the commits before committing.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+      Major feature changes, refactoring large amounts of code, complete redesign.
+
+      This is helpful to keep working code clean and allow you to have no fear
+      of major changes to code.
+
+How do the diagrams help you visualize the branch structure?
+
+      Show the order of commits and their parent.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+      Add the branch master keeping all the changes in the master that were made
+      after the coins branch was created. The branches are that way because it
+      all ends up as master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+      Pros of manual merging is that you get to control what changes are merged
+      and when.
+
+      Cons of manual merging is that you have to look at all conflicts and decide
+      what changes to make.
+
+      Pros of auto merging means that there are no conflicts.
+
+      There are no cons to automatic merging.
