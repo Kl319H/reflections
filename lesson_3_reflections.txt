@@ -1,1 +1,47 @@
-When would you want to create a remote repository rather that keeping all your work local?
+When would you want to create a remote repository rather that keeping all your
+work local?
+
+      To collaborate with your team or share your code with everyone. This is
+      useful in tracking changes on master and branches.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+      If you are collaborating with a team, you may not want to pull all the
+      changes made. They may cause problems with your code, or may be features
+      that you do not want to add.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+      Use a fork when you are wanting to make changes to an existing GitHub
+      repository to give credit to the original author. This is an easy way to
+      get a copy of the master put into your GitHub account. It is the same as
+      cloning.
+
+      Use cloning when you are coping a repository on your local machine.
+
+      Branches are working off an existing master without changing the master.
+      use this when collaborating with a team, fixing bugs or while attempting
+      to make major changes to an already working master before your merge.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+      You can access it without internet connectivity.
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+      It would be less efficient to collaborate without Git and GitHub. You
+      would be constantly having to exchange files and would really not have any
+      version control unless you renamed your file every single time. It would
+      be really hard to track changes.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+    I would want to make changed in a separate branch rather than master to keep
+    master clean and in working order and to make collaboration easier. I do not
+    see a benefit to committing changes to master other than it being a small
+    and you are the only one making working on the project.
